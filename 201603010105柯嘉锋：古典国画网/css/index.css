@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* background-color: rgb(2); */
+}
+
+.bg-orange {
+    background-color: rgb(90, 63, 36);
+    box-shadow: 5px 5px 5px rgb(104, 96, 80);
+}
+
+.UL .Margin {
+    position: relative;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 0 50px;
+}
+
+.UL .Margin:hover {
+    /* outline: 2px solid rgb(118, 95, 41); */
+    transform: scale(1.2, 1.2);
+    border-bottom: 2px outset rgb(77, 64, 48);
+}
+
+/* 二级菜单 */
+.sub-menu {
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 38px;
+    background-color: rgb(210, 205, 202);
+}
+
+.Margin-sub span {
+    display: block;
+}
+
+.UL .Margin-sub:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu .sub-menu-link {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: .7;
+    background-color: rgb(90,63,36);
+}
+
+.sub-menu .sub-menu-link:hover {
+    color: rgb(219, 201, 201);
+    opacity: 1;
+    border-radius: 5px;
+    transform: scale(1.05, 1.05);
+    
+}
+
+/* 画家派别 */
+/* 1 */
+.school {
+    border-bottom: 1px solid rgb(66, 57, 57, .7);
+    color: rgb(72, 42, 54);
+    padding: 30px 0;
+}
+
+.school-sub {
+    padding: 50px 10px;
+    color: rgb(92, 33, 35);
+}
+
+.Img1 {
+    float: left;
+    text-align: center;
+}
+
+.Img1 img,
+.Img2 img,
+.Img3 img,
+.Img4 img,
+.Img5 img,
+.Img6 img,
+.Img7 img,
+.Img8 img,
+.Img9 img,
+.Img10 img {
+    width: 60%;
+    height: 80%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.Img1 img:hover,
+.Img2 img:hover,
+.Img3 img:hover,
+.Img4 img:hover,
+.Img5 img:hover,
+.Img6 img:hover,
+.Img7 img:hover,
+.Img8 img:hover,
+.Img9 img:hover,
+.Img10 img:hover {
+    transform: scale(1.1);
+}
+
+.introduce1 {
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+    color: rgb(165, 149, 129);
+    /* text-shadow: 2px 1px #564c4c; */
+}
+
+/* 2 */
+.Img2 {
+    float: right;
+    text-align: center;
+}
+.Img1 img {
+    width: 50% !important;
+    height: 50% !important;
+}
+
+/* 3 */
+.Img3 {
+    float: left;
+    text-align: center;
+}
+
+/* 4 */
+.Img4 {
+    float: right;
+    text-align: center;
+}
+
+/* 5 */
+.Img5 {
+    float: left;
+    text-align: center;
+}
+
+/* 6 */
+.Img6 {
+    float: right;
+    text-align: center;
+}
+
+/* 7 */
+.Img7 {
+    float: left;
+    text-align: center;
+}
+
+/* 8 */
+.Img8 {
+    float: right;
+    text-align: center;
+}
+
+/* 9 */
+.Img9 {
+    float: left;
+    text-align: center;
+}
+
+/* 10 */
+.Img10 {
+    float: right;
+    text-align: center;
+}
+
+/* 回到顶部 */
+.back-top {
+    position: fixed;
+    top: 500px;
+    height: 0px;
+    float: right;
+    right: 50px;
+}
+
+.back-top>a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    border-radius: 50px;
+    background-color: rgb(72, 42, 54);
+}
+
+/* 文字炫彩效果 */
+.rainbow {
+    letter-spacing: 0.2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.rainbow span {
+    animation: rainbow 50s alternate infinite forwards;
+}
+
+@keyframes rainbow {
+    0% {
+        color: #efc68f;
+    }
+
+    100% {
+        color: #8fefed;
+    }
+}
+
+.introduce1 {
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    background-image: -webkit-linear-gradient(left, rgb(54, 41, 48), rgb(68, 14, 38) 25%, #241002 50%, rgb(44, 52, 65) 75%, #103f08);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-background-size: 200% 100%;
+    -webkit-animation: maskedAnimation 4s infinite linear;
+}
+
+@keyframes maskedAnimation {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+/* 标题闪光效果 */
+.school {
+    font-size: 2.5rem;
+    -webkit-animation: shining 0.5s alternate infinite;
+    animation: shining 0.5s alternate infinite;
+}
+@-webkit-keyframes shining {
+    from {
+        text-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px skyblue, 0 0 50px skyblue, 0 0 60px skyblue;
+    }
+
+    to {
+        text-shadow: 0 0 5px lightblue, 0 0 10px lightblue, 0 0 15px lightblue, 0 0 20px skyblue, 0 0 25px skyblue, 0 0 30px skyblue;
+    }
+}
+
+/* 作品赏析 */
+.appreciate p,
+.appreciate1 p {
+    color: gold;
+}
+.appreciate img {
+    width: 90%;
+    height: 70%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+.appreciate>img:hover {
+    transform: scale(1.05);
+}
+.appreciate1>img:hover {
+    transform: scale(1.05);
+}
+.appreciate1 img {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+/* 页脚 */
+.bg-footer {
+    height: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36px;
+    background-color: rgb(59, 40, 24);
+}
+.bg-footer p {
+    color: rgb(202, 198, 190);
+}
+
+.login {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(41, 28, 16);
+}
+.nav-link{
+    color: white;
+}

@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.extra {
+    background-color: rgba(0, 0, 0, .4);
+    animation: rolling 100s linear  infinite;
+    animation-play-state: paused;
+}
+/* 给图片一个宽度，消除图片的外边距 */
+.float img {
+    outline-width: 0px;
+    vertical-align: top;
+    width: 100%;
+    transition: all 1s;
+}
+.float:hover img {
+    transform: scale(0.9);
+}
+/* 设置个动画，上下滚动 */
+@keyframes rolling {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+body:active .extra {
+    animation-play-state: running;
+}

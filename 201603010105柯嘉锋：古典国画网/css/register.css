@@ -1,0 +1,51 @@
+#container {
+    background: rgba(0, 0, 0, .5);
+    color: rgb(172, 120, 51);
+    padding: 15px;
+    margin: 200px auto 0px;
+    width: 600px;
+    border-radius: 15px;
+    text-align: center;
+    font-family: "微软雅黑 Light";
+    box-shadow: 10px 10px 15px rgb(17, 17, 17);
+}
+
+hr {
+    width: 80%;
+    border: #a05624 1px solid;
+    margin-bottom: 15px;
+}
+
+body {
+    background: url(../images/界画/清明上河图.png);
+    background-repeat: repeat-y;
+}
+
+input {
+    width: 180px;
+    height: 20px;
+    margin: 5px;
+    font-size: 16px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgba(0, 0, 0, .2);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    background: #a05624;
+    border: 0px;
+    color: rgb(210, 201, 160);
+    margin: 10px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ab5c9a;
+    color: aliceblue;
+}

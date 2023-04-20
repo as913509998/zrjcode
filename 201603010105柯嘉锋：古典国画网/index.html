@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-icons-1.10.2/bootstrap-icons.css">
+    <link rel="stylesheet" href="./bootstrap-5.1.3/dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <title>古典国画网</title>
+</head>
+
+<body>
+    <!-- 轮播 -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/5.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/6.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-orange">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo4.png" alt="" style="width: 70px;height: 50px;">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 UL">
+                    <li class="nav-item Margin">
+                        <a class="nav-link active" style="color: white;" aria-current="page" href="index.html">首页</a>
+                    </li>
+                    <li class="nav-item Margin">
+                        <a class="nav-link" href="introduce.html" style="color: white;">国画介绍</a>
+                    </li>
+                    <li class="nav-item Margin">
+                        <a class="nav-link" href="作家风采.html" style="color: white;">作家风采</a>
+                    </li>
+                    <li class="nav-item Margin Margin-sub">
+                        <span class="nav-link" style="color: white;">国画类型</span>
+                        <div class="sub-menu">
+                            <a href="水墨画.html" class="sub-menu-link" target="_top" style="color: white;">水墨画</a>
+                            <a href="山水画.html" class="sub-menu-link"target="_top" style="color: white;">山水画</a>
+                            <a href="人物画.html" class="sub-menu-link"target="_top" style="color: white;">人物画</a>
+                            <a href="界画.html" class="sub-menu-link" target="_top" style="color: white;">界画</a>
+                        </div>
+                    </li>
+                    <li class="nav-item Margin">
+                        <a class="nav-link" href="https://minghuaji.dpm.org.cn/" style="color: white;">关于更多</a>
+                    </li>
+                </ul>
+                <a href="login.html" class="login">登录</a>
+                <a href="register.html" class="login">注册</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- 发展历程 -->
+        <h1 class="school">发展历程</h1>
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="school-sub">战国时期</h3>
+                <p class="introduce1">
+                    早在战国时，中国绘画就已出现了人物帛画，
+                    到晋唐时人物画更是艺臻成熟。五代两宋时
+                    期，山水画、花鸟画得到了全面发展。其中
+                    既有像范宽、李成之辈的正规画大家，又有
+                    米芾、苏轼之流的文人画家。 元代绘画是整
+                    个中国绘画史的分水岭，文人画开始成为画
+                    坛主流。文人画逐渐融入书法的笔意，开始
+                    强调画家的个性抒发。诗、书、画的结合，
+                    丰富了中国绘画的艺术表现力。 明清两季
+                    的绘画，在发掘的流派。
+                </p>
+            </div>
+            <a href="#demo" class="btn btn-success" data-bs-toggle="collapse">展开 更多</a>
+            <div id="demo" class="collapse">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">魏晋南北朝时期</h3>
+                    <p class="introduce1">
+                        在这一时期，一方面魏晋文人士大夫个体意识
+                        的觉醒，由此导致了士大夫绘画的独立，另一
+                        方面是佛教的传播，由此导致了佛教绘画的兴
+                        盛和西域画风的传入。其间最负盛名的画家是
+                        顾恺之、陆探微、张僧繇，画史上合称："六
+                        朝三大家"。当时的评论界就认为：顾的绘画
+                        得对象之神，陆的绘画得对象之骨，张的绘画
+                        得对象之肉。遗憾的是顾恺之尚有《女史箴图
+                        卷》的后人摹本，而陆张二人的画迹连后人摹
+                        本也不曾流传下来。而根据记载张氏的绘画注
+                        重骨力，陆氏的绘画则借鉴西域画风，注重色
+                        彩凹凸渲染。另外这一时期的绘画理论研究也
+                        具有划时代的意义。谢赫提出的"六法"标志着
+                        绘画真正成为一门独立的艺术而获得了士大夫
+                        的认同。而宗炳提出的"卧游"、"畅神"、"澄
+                        怀观道"的理论，对于山水画所应涵有的人文
+                        精神，取得了十分完美的理解，这对后世的
+                        山水画发展有着很大的影响。
+                    </p>
+                </div>
+                <div class="col-sm-12">
+                    <h3 class="school-sub">隋唐时期</h3>
+                    <p class="introduce1">
+                        隋唐的统治结束了中国历史370年南北分
+                        裂的动乱局面。唐代社会生产力迅速提高
+                        ，成为当时世界政治、经济、文化中心。
+                        唐代的绘画有三大特点：其一是礼教绘画
+                        的复兴，其二是宫廷绘画的玩赏画，其三
+                        是文人绘画的深化。用于政治礼教宣传的
+                        传世作品有《步辇图》、《历代帝王图》
+                        等人物画。而宫廷玩赏画主要是青绿山水
+                        和花鸟屏风。在这一时期人物、山水、花
+                        鸟的分科更趋明显。阎立本、吴道子的人
+                        物画创作，恢宏大度的艺术形象，空实明
+                        快的线条，辉煌绚烂的色彩，为后世难以
+                        企及。尤其是李思训、李昭道的青绿山水和
+                        王维的水墨山水更被后世奉为"南北二宗"
+                        的开山，分别代表了宫廷贵族和隐逸文人
+                        对山水画不同的玩赏倾向。
+                    </p>
+                </div>
+                <div class="col-sm-12">
+                    <h3 class="school-sub">五代两宋时期</h3>
+                    <p class="introduce1">
+                        五代时期，川蜀和江南地区社会经济较为稳
+                        定，南唐和西蜀都设立了宫廷画院，罗致了
+                        各地有名的画家从事创作。西蜀的画坛，以
+                        黄筌为代表；江南地区则涌现了周文矩、顾
+                        闳中、徐熙、董源等杰出画家。而关仝、李
+                        成，则成为北方泼墨山水的典范。人物画，
+                        贯休、石恪的放逸画法为南宋梁楷的减笔画
+                        一开先风。 两宋是中国绘画史上巨大嬗变的
+                        时期，宫廷院画盛行一时，树立了"精致缜密
+                        "的院体风格。米芾、苏轼所提倡的文人墨戏
+                        ，在当时又别树一帜。而南宋的画风趋向简
+                        率豪放，水墨刚劲。
+                    </p>
+                </div>
+                <div class="col-sm-12">
+                    <h3 class="school-sub">元代时期</h3>
+                    <p class="introduce1">
+                        元代绘画在继承唐、五代、宋绘画传统的基础
+                        上有进一步发展，其显著特点是"文人画"的兴
+                        起。与宋代文人画相比，元代文人画有四大特
+                        征：其一，绘画题材由简单的枯木竹石、梅、
+                        兰等扩展到山水，并使之从此以后成为中国绘
+                        画史上最重要的一个永恒主题和无限象征。其
+                        二，画法较宋人的墨戏更为严谨。其三，重视
+                        绘画中的书法趣味，要求"以书入画"。其四，
+                        在画面的意境构成上追求以诗题画，讲求诗情
+                        画意的相得益彰。 元初钱选和赵孟頫在理论
+                        和创作实践上开元画之风气，继之而起的黄公
+                        望、吴镇、王蒙、倪瓒被称为"元四大家"。
+                        他们的艺术成就，体现了中国画又一次创造性
+                        的发展，对明清两代绘画理论和创作，均起了
+                        极为深刻的影响。
+                    </p>
+                </div>
+                <div class="col-sm-12">
+                    <h3 class="school-sub">明代时期</h3>
+                    <p class="introduce1">
+                        明代中期以前宫廷绘画继承了两宋院体而重
+                        新昌盛，出现了像边景昭、林良、吕纪、谢
+                        环等院体大家。而其画风所及，又形成了地
+                        区的流派特色，产生了以戴进、吴伟为首的
+                        "浙派"。明中、后期，宋元以来的文人水墨
+                        画风才得以重新复兴，发展为以明四家沈周
+                        、文征明、唐寅等为代表的"吴门画派"。以
+                        及由董其昌为代表的"松江派"。在花鸟画方
+                        面，技法不时有所创新，陈淳、徐渭所开拓
+                        出的大写意花鸟，笔墨豪迈，对清季花鸟画
+                        坛影响很大。
+                    </p>
+
+                </div>
+                <div class="col-sm-12">
+                    <h3 class="school-sub">清代时期</h3>
+                    <p class="introduce1">
+                        明清时期的绘画思潮可以分为四个方面：其一
+                        是宫廷绘画的复兴，明代有锦衣卫所附设的画
+                        家制度，清代对于供奉画家有如意馆的设置。
+                        其二，是文人画的暗转和绘画商品化的兴起。
+                        其三，是西洋绘画的传入。其四，是绘画画派
+                        的蜂起和画家们对画科题材的全能。针对此点
+                        ，从明代中、后期到清代，这段画史不再按照
+                        人物、花鸟、山水分科目介绍，而是按照画家
+                        的画派归属来作介绍。 清初的画坛，出现若
+                        干富有地方特色的绘画流派。以摹古为主的"
+                        四王"一系山水占据着统治地位。此外"四僧"、
+                        "金陵八家"，注重体察自然，各有独特创造。
+                        "常州画派"的恽寿平变徐崇嗣的"没骨法"，开
+                        写生花卉新境界。"扬州画派"标新立异，个性
+                        强烈。而清末聚集在上海地区的画家在题材内
+                        容和艺术形式都有创新，成为"海上画派"。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- 国画特点 -->
+        <h1 class="school">国画特点</h1>
+        <div class="row">
+            <p class="introduce1">
+                中国画以毛笔、墨、绢纸为主要工具，以线条为其生命，散点透视，造形构图，赋物以神，故与十五世纪以来以油彩作于布上，注重色彩明暗、讲求焦点透视的西洋画迥然不同。
+                中国画还与诗文相辅相成，互得益彰；与印章珠联璧合，对应成趣。在文人画兴起的宋元以降，更是诗书画印、长款短跋溶成一体，寄情感，吐心声，内涵丰富；或寓意，或象征，充满哲理，素称"无声诗"。
+                此外，中国卷轴画的特殊装裱形式与分门别类，与西洋画有所不同。东方的文雅含蓄，与西方的生动奔放，特色自具，难分轩轾。诚如画坛大师潘天寿所说，中国画与西洋画宛如两座并峙的大山，各有高峰，而巍然屹立于世界艺术之林。
+                在漫长的历程中，绘画与工艺美术结合，带有装饰风。汉代的民间匠师艺人已经能利用各种物质材料，创造多种绘画技巧、形式和风范。幅员广阔的中华大地，不同地区相互影响与交流，初步形成了显著的民族风格：重视以形写神，重视点睛传神，追求形神兼备、气韵生动。
+            </p>
+        </div>
+        <!-- 国画流派 -->
+        <h1 class="school">国画流派</h1>
+        <!-- 1 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="school-sub">黄荃画派</h3>
+                <div class="col-sm-5 col-lg-5 Img1">
+                    <img src="./img/HQ1.jpeg" alt="">
+                    <p style="margin: 10px auto;">黄荃富贵 徐熙野逸</p>
+                </div>
+                <p class="introduce1">
+                    又称“黄筌画派”、“黄家富贵”。在中国花鸟画史上占
+                    有重要地位。它是五代花鸟画两大流派之一，成熟于
+                    五代西蜀的黄筌，光大于宋初的黄居寀。黄筌才高技巧
+                    ，善于取熔前人轻勾浓色的技法，独标高格，是深得统
+                    治阶层喜爱的御用画家。其子居寀、居宝承其家风，成为
+                    两宋时占统治地位的花鸟派别。黄筌为宫廷画家，多写宫
+                    苑中的奇花怪石、珍禽瑞鸟，勾勒精细，设色浓丽，不露
+                    墨痕，所谓“诸黄画花，妙在赋色”（沈括），画成逼肖其生
+                    ，故有“黄家富贵”之称。黄派代表了晚唐、五代、宋初时西
+                    蜀和中原的画风，成为院体花鸟画的典型风格。入宋后，
+                    当时凡画花鸟无不以“黄家体制为准。”
+                </p>
+            </div>
+        </div>
+        <!-- 2 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="school-sub">徐熙画派</h3>
+                <div class="col-sm-5 col-lg-5 Img2">
+                    <img src="./img/Xuezhu.png" alt="">
+                    <p style="margin: 10px auto;">雪竹图轴</p>
+                </div>
+                <p class="introduce1">
+                    中国画流派之一。为五代花鸟画派的一支，代表画家徐熙。
+                    北宋郭若虚在《图画见闻志》中“论黄、徐体异”时说：“黄
+                    家富贵，徐熙野逸。”又说：“徐熙江南处士”，“多状江湖所
+                    有，汀花野竹，水鸟渊鱼。”此派多作粗笔浓墨，略施杂彩，
+                    而笔迹不隐，素有“落墨花”之称。参见“落墨”。
+                </p>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="row">
+            <div class="col-sm-12">
+                <h3 class="school-sub">北方山水画派</h3>
+                <div class="col-sm-5 col-lg-5 Img3">
+                    <img src="./img/北方山水画派.png" alt="">
+                    <p style="margin: 10px auto;">北方山水画派</p>
+                </div>
+                <p class="introduce1">
+                    中国画流派之一。中国山水画至北宋初，始分北方派系和江
+                    南派系，郭若虚《图画见闻志》说：“唯营丘李成、长安关仝、
+                    华原范宽，智妙入神，才高出类，三家鼎峙，百代标程。”又
+                    说：”夫气象萧疎，烟林清旷，毫锋颖脱，墨法精微者，营丘
+                    之制也；石体坚凝，杂木丰茂，台阁古雅，人物幽闲者，关氏
+                    之风也；峰峦浑厚，势状雄强，抢笔俱均，人屋皆质者，范氏
+                    之作也。”李、关、范的画风，风靡齐、鲁，影响关、陕，实
+                    为北方山水画派之宗师。
+                </p>
+            </div>
+        </div>
+        <a href="#demo" class="btn btn-success" data-bs-toggle="collapse">更多流派</a>
+        <div id="demo" class="collapse">
+            <!-- 4 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">南方山水画派</h3>
+                    <div class="col-sm-5 col-lg-5 Img4">
+                        <img src="./img/4.jpg" alt="">
+                        <p style="margin: 10px auto;">南方山水画派</p>
+                    </div>
+                    <p class="introduce1">
+                        亦称“江南山水画派”。中国画流派之一。北宋沈括《梦溪笔谈》
+                        说：“董源，工秋岚远景，多写江南真山，不为奇峭之气；建业
+                        僧巨然祖述董法，皆臻妙理。”米芾《画史》也说：“董源平淡天
+                        真多，唐无此品。”此派以董源和巨然为一代宗师，世称“董巨”。
+                        惠崇和赵令穰的小景，为此派支流。米芾父子的“米派云山”，画
+                        京口一带景色，显出此派新貌。南宋末法常（牧溪）和若芬（玉
+                        涧）等，皆属南画体系，至元代而大盛。
+                    </p>
+                </div>
+            </div>
+            <!-- 5 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">米派</h3>
+                    <div class="col-sm-5 col-lg-5 Img5">
+                        <img src="./img/米派《春山瑞松图》.png" alt="">
+                        <p style="margin: 10px auto;">《春山瑞松图》</p>
+                    </div>
+                    <p class="introduce1">
+                        中国画流派之一。指宋代米芾、米友仁父子所绘之画。画
+                        史上称“大米“、”小米”，或名“二米”。米芾尝与李公麟论古
+                        今山水，少有出尘格者，因信笔作之。自称“无一笔李成、关
+                        仝俗气”。中国的传统山水画，用笔多以线条为主，米芾则以
+                        卧笔横点成块面，称“落茄法”，打破了线条成规。其特点，能
+                        表达烟雨云雾、迷茫奇幻的景趣，世称“米氏云山”。友仁继
+                        承和发展家传，善画无根树、朦胧云，每喜自题“元晖戏笔”。
+                        因父子均居襄阳和镇江，对潇、湘二水和金、焦二山自然景
+                        色特别陶醉，故能画出水气蒸郁、烟雾弥漫的妙趣。此派为
+                        大写意风格，南宋牧溪、元代高克恭、方从义等皆师
+                        之，对后世影响甚大。
+                    </p>
+                </div>
+            </div>
+            <!-- 6 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">松江画派</h3>
+                    <div class="col-sm-5 col-lg-5 Img6">
+                        <img src="./img/洛神赋图.png" alt="">
+                        <p style="margin: 10px auto;">松江画派</p>
+                    </div>
+                    <p class="introduce1">
+                        简称“松江派”。中国画流派之一。晚明松江府治（今
+                        属上海市）下三个山水画派的总称。一是以赵左为首的，
+                        称“苏松画派”；二是以沈士充为首的，称“云间画派”；
+                        三是顾正谊及其子侄辈，称“华亭画派”。其中“苏松派
+                        ”和“云间派”都导源于宋旭，赵左和宋懋晋同师宋旭。
+                        沈士充师宋懋晋，兼师赵左。这些画家，除宋旭外，都
+                        是松江府人，风格互有影响，故总称“松江派”。当时董
+                        其昌的书画，为一时之宗；与陈继儒并称于世。
+                    </p>
+                </div>
+            </div>
+            <!-- 7 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">黄山画派</h3>
+                    <div class="col-sm-5 col-lg-5 Img7">
+                        <img src="./img/7.jpg" alt="">
+                        <p style="margin: 10px auto;">黄山画派</p>
+                    </div>
+                    <p class="introduce1">
+                        中国画流派之一。以明末清初渐江（弘仁）为先路，
+                        与查士标、孙逸、汪之瑞合称“新安派四大家”。渐
+                        江为歙县人，查士标、孙逸、汪之瑞为休宁人，二县
+                        皆属徽州府治，晋唐时属新安郡治，故名。亦称“海
+                        阳四家”，“海阳”本名“休阳”，三国吴置，避讳改“
+                        海阳”，在今安徽休宁县东十三里。四家的特点宗法
+                        倪瓒、黄公望，多写生黄山云海松石之景，着墨无
+                        多，用笔坚洁简淡。属于此派者尚有程邃、戴本孝、
+                        郑旼，风格沈郁苍古，现代黄宾虹师之。师渐江者
+                        有江注、吴定、姚宋、祝昌，被称为渐江的“四大弟子”。
+                    </p>
+                </div>
+            </div>
+            <!-- 8 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">巴蜀画派</h3>
+                    <div class="col-sm-5 col-lg-5 Img8">
+                        <img src="./img/8.jpg" alt="">
+                        <p style="margin: 10px auto;">巴蜀画派</p>
+                    </div>
+                    <p class="introduce1">
+                        婉转细腻、设色丰富而秀润，勾线纤细飘逸，与
+                        燕赵画派浑茫苍厚，用笔豪壮，用色多水墨焦墨，
+                        风格差异很大，民国时候所说的南张北溥，南即四
+                        川张大千，北即河北溥心畲。四川地区文化传统深
+                        厚，人文环境积淀又深，是书画家的摇篮，巴蜀画
+                        派典型风格即为意境含蓄典雅、传统功力深厚、尤
+                        其在颜色和线条上为其他画派所不及。秀润之风，
+                        温润之气，这在青绿金碧山水、工笔人物以及工笔
+                        花鸟上都有体现，即便是写意之山水人物花鸟。也
+                        透露出浓重的秀润之气，这在张大千张善子兄弟、
+                        陈子庄、赵蕴玉、朱宣咸、朱佩君、肖建初等一代
+                        画家身上体现明显。尤其是近代中国画受到西画的
+                        影响，纷纷变化，四川重庆（巴蜀画派）的画家却
+                        很少受其影响，有着北派、海派、长安、岭南等地
+                        所稀少的传统气韵和功力。这在传统文化回归的现
+                        代尤其显得难得。
+                    </p>
+
+                </div>
+            </div>
+            <!-- 9 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">元四家</h3>
+                    <div class="col-sm-5 col-lg-5 Img9">
+                        <img src="./img/9.jpg" alt="">
+                        <p style="margin: 10px auto;">黄派</p>
+                    </div>
+                    <p class="introduce1">
+                        元代山水画的四位代表画家的合称。主要有二说：
+                        一是指赵孟頫、吴镇、黄公望、王蒙四人，见明代
+                        王世贞《艺苑卮言·附录》。二是指黄公望、王蒙、
+                        倪瓒、吴镇四人，见明代董其昌《容台别集·画旨》
+                        。第二说流行较广。也有将赵孟頫、高克恭、黄
+                        公望、吴镇、倪瓒、王蒙合称为“元六家”。画风虽
+                        各有特点，但主要都从五代董源、北宋巨然的基础
+                        上发展而来，重笔墨，尚意趣，并结合书法诗文，
+                        是元代山水画的主流，对明清两代影响很大。
+                    </p>
+                </div>
+            </div>
+            <!-- 10 -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3 class="school-sub">扬州八怪</h3>
+                    <div class="col-sm-5 col-lg-5 Img10">
+                        <img src="./img/HQ1.jpeg" alt="">
+                        <p style="margin: 10px auto;">黄派</p>
+                    </div>
+                    <p class="introduce1">
+                        清乾隆间寓居江苏扬州的八位代表画家的总称。一
+                        般指汪士慎、黄慎，金农、高翔、李鱓、郑燮、李
+                        方膺、罗聘，见李玉棻《瓯钵罗室书画过目考》。
+                        实际上不止八人，有换汪士慎、高翔、罗聘为高凤
+                        翰、边寿民、杨法者，或换高翔。李方膺为闵贞、
+                        高凤翰者，也有将陈撰或李葂列入者，见汪鋆《扬
+                        州画苑录》。作画多以花卉为题材，亦画山水、人
+                        物，主要取法于陈道复、徐渭、朱耷（八大山人）、
+                        原济（石涛）等人，能不拘前人陈规。破格创新，
+                        抒发真实情感；又都能诗，擅书法或篆刻，讲究诗
+                        书画的结合，和当时流行画坛的尚古模拟之风，有
+                        所不同，被时人目为“偏师”、“怪物”，遂有“八怪”
+                        之称。汪鋆是“正统”画风维护者，曾评说：“另出
+                        偏师，怪以八名，画非一体。似苏（秦）、张（仪
+                        ）之捭阖，偭徐（熙）、黄（荃）之遗规。率汰三
+                        笔五笔，复酱嫌觕，（通“粗”）；胡谄五言七言，
+                        打油自喜。非无异趣，适赴歧途。示崭新于一时，
+                        只盛行乎百里。”其实此派不仅对近代写意花卉画
+                        的意趣和技法，有相当大的影响；而且直至现代的
+                        齐白石、陈师曾、徐悲鸿、潘天寿、来楚生等，都
+                        从某个侧面对之有所汲取。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 作品赏析 -->
+        <h1 class="school text-center">作品赏析</h1>
+        <div class="row">
+            <div class="col-sm-4 text-center appreciate">
+                <img src="./img/娄师白的鸭.png" alt="">
+                <p>娄师白的《鸭》</p>
+            </div>
+            <div class="col-sm-4 text-center appreciate">
+                <img src="./img/徐悲鸿的马.png" alt="">
+                <p>徐悲鸿的《马》</p>
+            </div>
+            <div class="col-sm-4 text-center appreciate">
+                <img src="./img/李可染的牛.png" alt="">
+                <p>李可染的《牛》</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 text-center appreciate1">
+                <img src="./img/齐白石的虾.png" alt="">
+                <p>齐白石的《虾》</p>
+            </div>
+            <div class="col-sm-4 text-center appreciate1">
+                <img src="./img/李苦禅的鹰.png" alt="">
+                <p>李苦禅的《鹰》</p>
+            </div>
+            <div class="col-sm-4 text-center appreciate1">
+                <img src="./img/黄胄的驴.png" alt="">
+                <p>黄胄的《驴》</p>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid bg-footer">
+        <p class="text-center">版权归2020级网络工程所有，未经许可不得复制、更改&nbsp;&nbsp;
+            E-mail：2856613052@qq.com
+            联系电话：18477000031</p>
+    </footer>
+    <!-- 回到顶部 -->
+    <div class="back-top">
+        <a href="#top"><i class="bi bi-chevron-double-up"></i></a>
+    </div>
+
+</body>
+
+</html>

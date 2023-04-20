@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+.bigger {
+    width: 100%;
+}
+
+.bigger:after,
+.down::after,
+.down-down::after {
+    display: block;
+    content: "";
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+.bigger .upper {
+    box-sizing: border-box;
+    text-align: center;
+}
+.bigger .upper img {
+    width: 100%;
+    height: 400px;
+}
+
+.bigger .down {
+    width: 100%;
+    margin: auto;
+    margin-top: -4px;
+    background-color: rgba(252,252,253, 0.7);
+    box-shadow: 0 0 3px rgba(0,0,0,0.7) ;
+}
+
+.bigger .down h2 {
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    color: rgb(113,81,65);
+}
+
+.bigger .down p {
+    width: 70%;
+    margin: 0 auto;
+    text-indent: 2em;
+    text-align:justify;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-rendering: geometricPrecision;
+}
+
+.dow1 h1 {
+    color: rgb(113,81,37);
+    text-align: center;
+    padding: 50px 0 50px 0;
+    width: 100%;
+    background-color: rgb(246,242,238);
+}
+
+.down-down {
+    /* 弹性布局  让页面元素水平+垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    background-color: rgb(246,242,238);
+    padding-bottom: 100px;
+}
+
+.down-down ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.down-down ul li {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+}
+.down-down ul li img {
+    width: 90%;
+    height: 90%;
+}
+.down-down ul li:hover .mask {
+    top: 0;
+}
+.mask {
+    position: absolute;
+    top: 500px;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+    transition: all .7s ease-out;
+}
+.mask>p {
+    text-indent: 2em;
+    padding: 0 20px;
+    color: #eee;
+}
+.down-down ul li>p {
+    text-align: center;
+    color: rgb(113,81,37);
+    font-size: 16px;
+}
+
+
+/* 页脚 */
+.bg-footer {
+    width: 100%;
+    height: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36px;
+    background-color: rgb(59, 40, 24);
+}
+.bg-footer p {
+    color: rgb(202, 198, 190);
+    text-align: center;
+}

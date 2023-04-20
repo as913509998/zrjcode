@@ -1,0 +1,24 @@
+
+.brief p {
+    text-indent: 2em;
+    text-align: justify;
+    line-height: 40px;
+    font-size: 20px;
+    color: rgb(165, 149, 129);
+}
+
+.brief>h2 {
+    padding: 40px 0;
+    color: rgb(38, 27, 15);
+}
+
+.bg-footer1 {
+    height: 36px;
+    position: absolute;
+    bottom: 0;
+    line-height: 36px;
+    background-color: rgb(59, 40, 24);
+}
+.bg-footer1 p {
+    color: rgb(202, 198, 190);
+}
